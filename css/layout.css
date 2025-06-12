@@ -21,11 +21,10 @@ header{
     width: 100%;
     background-color: #8d6c4d;
 }
-.containerHeader{
+.containerHeader,  .containerInfo{
     width: 80vw;
     height: auto;
     margin: auto;
-    border: 1px solid bisque;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(4,auto);
@@ -40,7 +39,7 @@ header{
     grid-row: 3/4;
 }
 #psbotaoHeader{
-    margin-bottom:200px ;
+    margin-bottom:150px ;
     grid-column: 1/3;
     grid-row: 4/5;
 }
@@ -49,6 +48,38 @@ header{
         grid-column: 8/13;
         grid-row: 2/4;
 } 
+/*Meio do site*/
+.meioBuguer{
+    width: 100%;
+ 
+}
+#psimagemBuguer{
+    margin-top: 100px;
+    grid-column: 2/6;
+    grid-row: 1/4;
+}
+.fromBuguer{
+    width: 300px;
+    height: 400px;
+}
+#pstituloBuguer{
+    margin-top: 150px;
+    grid-column: 7/13;
+    grid-row: 1/2;
+}
+#psSubtitulo{
+    margin-top: 15px;
+    grid-column: 7/13;
+    grid-row: 2/3;
+}
+#psTextoBuger{
+    margin-top: 40px;
+    grid-column: 7/13;
+    grid-row: 2/3;
+}
+.containerInfo{
+    grid-template-rows: repeat(3,1fr);
+}
 
 /*versão mobile*/
 @media screen and (max-width:767px){
